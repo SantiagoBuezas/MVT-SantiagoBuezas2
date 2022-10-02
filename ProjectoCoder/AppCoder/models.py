@@ -7,4 +7,4 @@ class Familiar(models.Model):
     nombre = models.CharField(max_length=40)
     parentezco = models.CharField(max_length=40)
     edad = models.IntegerField()
-    fecha_de_nacimiento = models.DateField()
+    fecha_de_nacimiento = models.DateTimeField()
