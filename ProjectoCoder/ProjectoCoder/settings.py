@@ -54,7 +54,9 @@ ROOT_URLCONF = 'ProjectoCoder.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            "C:\Users\Santi\Desktop\Coder House\MVT-Santiago Buezas\ProjectoCoder\AppCoder\templates"
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
